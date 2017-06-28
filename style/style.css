@@ -16,9 +16,8 @@ a:hover {
 }
 
 #title-spoons {
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  width: 150px;
+  margin: 10px auto 20px auto;
 }
 
 .blocks {
