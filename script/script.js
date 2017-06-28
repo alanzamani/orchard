@@ -1,17 +1,22 @@
-/*getting the image*/
-var address1 = document.getElementById('red');
-var address2 = document.getElementById('green');
-var address3 = document.getElementById('white');
+window.onload=function () {
 
-address1.onclick = function () {
-    console.log(this.alt);
+    /*getting the images*/
+    var address1 = $("#red")[0];
+    var address2 = $("#green")[0];
+    var address3 = $("#white")[0];
+
+    address1.onclick = function () {
+        console.log(this.alt);
+    }
+    address2.onclick = function () {
+        console.log(this.alt);
+    }
+    address3.onclick = function () {
+        console.log(this.alt);
+    }
 }
-address2.onclick = function () {
-    console.log(this.alt);
-}
-address3.onclick = function () {
-    console.log(this.alt);
-}
+
+
 
 
 
