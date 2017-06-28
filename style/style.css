@@ -3,6 +3,8 @@
   color: white;
 }
 
+/*----------------- Spoons (colours.png) --------------------------*/
+
 a {
   color: white;
 }
@@ -10,9 +12,10 @@ a {
 a:hover {
   color: #2e6da4;
   text-decoration: none;
+  opacity: 0.5;
 }
 
-#title_spoons {
+#title-spoons {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 20px;
@@ -26,7 +29,11 @@ a:hover {
 
 .blocks img {
   width: 100%;
-  margin-bottom: 25px;
+  /*margin-bottom: 25px;*/
+}
+
+.blocks h5 {
+  margin-top: 25px;
 }
 
 .left {
@@ -48,6 +55,44 @@ a:hover {
 
 
 
+/*----------------- Pans & Carets (shapes.png) ------------------------*/
+
+#mobile {
+  margin-bottom: 6px;
+}
+
+.line p, h4 {
+  line-height: 20pt;
+}
+
+.span-red {
+  color: red;
+}
+
+
+
+/*----------------------------- MOBILE RESPONSIVE ---------------------*/
+
+@media (max-width: 320px){
+
+  .blocks {
+    float: none;
+    width: 100%;
+  }
+
+  .left, .middle, .right {
+    margin: 0;
+  }
+
+  .line p, h4 {
+    line-height: normal;
+  }
+
+  .pan {
+    margin-bottom: 6px;
+  }
+
+}
 
 
 

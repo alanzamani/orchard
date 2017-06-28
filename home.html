@@ -3,26 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Orchard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="style/bootstrap.min.css">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/modal.css">
 </head>
 <body>
 
-<!-------------------- \ Spoons (colours.png) -->
+<!-------------------- \    Spoons (colours.png) -->
 <div class="container">
-    <div id="title_spoons">
+    <div id="title-spoons">
         <span class="text-uppercase">taste the colours</span>
         <p>______________________</p>
     </div>
-
-    <!-------------------- \ pics blocks -->
     <div>
         <div class="blocks left">
-            <a href="https://www.google.com.au/">
+            <a href="https://www.google.com./">
                 <tabel>
                     <tr>
                         <td>
-                            <img class="images" src="images/red.jpg">
+                            <img id="red" class="images" src="images/red.jpg" alt="red spoon">
                         </td>
                     </tr>
                     <tr>
@@ -41,7 +41,7 @@
                 <tabel>
                     <tr>
                         <td>
-                            <img class="images" src="images/green.jpg">
+                            <img id="green" class="images" src="images/green.jpg" alt="green spoon">
                         </td>
                     </tr>
                     <tr>
@@ -60,7 +60,7 @@
                 <tabel>
                     <tr>
                         <td>
-                            <img class="images" src="images/white.jpg">
+                            <img id="white" class="images" src="images/white.jpg" alt="white spoon">
                         </td>
                     </tr>
                     <tr>
@@ -75,19 +75,47 @@
             </a>
         </div>
     </div>
-    <!-------------------- / pics blocks -->
-
 </div>
-<!-------------------- / Spoons (colours.png) -->
+<!-------------------- /    Spoons (colours.png) -->
 
 
 <!-------------------- \ Pans & Carets (shapes.png) -->
-
-
+<div class="container">
+    <div class="blocks left pan">
+        <img id="pan" src="images/pan.jpg" alt="Egg in the Pan">
+    </div>
+    <div class="blocks middle">
+        <tabel>
+            <tr>
+                <img id="mobile" src="images/mobile.jpg" alt="Egg in the Pan in the Mobile">
+            </tr>
+            <tr>
+                <img id="caret" src="images/caret.jpg" alt="Colourful Carets">
+            </tr>
+        </tabel>
+    </div>
+    <div class="blocks right line">
+        <h2 class="text-uppercase">taste: a five-sense experience</h2>
+        <hr>
+        <p>Our visual senses provide up tp 28% of our taste experience. This is a theory Instagram chef Jacques Ia Merde takes to the extreme. Servicing up exquisite tasting plates - in fact made from gas station ingredients - to her thousands of followers, she demonstrates how visual techniques affect our perception of food.</p>
+        <span class="text-uppercase span-red">food that looks its best</span>
+        <h4>Enhance the flavour of your food by using a variety of colours and shapes to entice the eyes</h4>
+    </div>
+</div>
 <!-------------------- / Pans & Carets (shapes.png) -->
+
+
+<!-------------------- /             Modal          -->
+<div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img">
+    <div id="caption"></div>
+</div>
+<!-------------------- \             Modal          -->
 
 
 <script src="script/jquery-3.2.1.min.js"></script>
 <script src="script/script.js"></script>
+<script src="script/modal.js"></script>
 </body>
 </html>
