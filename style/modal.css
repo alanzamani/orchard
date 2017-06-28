@@ -1,4 +1,4 @@
-#pan:hover {
+#pan:hover, #mobile:hover, #caret:hover {
   opacity: 0.5;
 }
 
