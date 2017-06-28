@@ -1,0 +1,54 @@
+.container {
+  background-color: black;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #2e6da4;
+  text-decoration: none;
+}
+
+#title_spoons {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.blocks {
+  width: 28%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.blocks img {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.left {
+  margin-left: 5%;
+}
+
+.middle {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.right {
+  margin-right: 5%;
+}
+
+.blocks h5, h6 {
+  text-align: center;
+}
+
+
+
+
+
+
+
